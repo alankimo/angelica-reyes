@@ -1,0 +1,30 @@
+/*!
+Theme Name: 
+Theme URI: 
+Description: 
+Author: 
+Version: 
+*/
+
+// Importar cdn's de librerias css externas como fuentes, iconos, etc.
+
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300italic,500);
+
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
+
+/* Mobile Firts */
+@import 'mobile.styl';
+
+/* Tablets: Portrait */
+@media screen and (min-width: 768px)
+	@import 'tablet.styl'
+
+/* Tablets: Landscape // Desktop mini */
+@media screen and (min-width: 992px)
+	@import 'desk-mini.styl';
+
+/* Desktops */
+@media screen and (min-width: 1200px)
+	@import 'desk-large.styl';
